@@ -15,6 +15,18 @@
 		9152546D15C26B08001F55C9 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152546C15C26B08001F55C9 /* TSAppDelegate.m */; };
 		9152547015C26B08001F55C9 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152546F15C26B08001F55C9 /* TSViewController.m */; };
 		9152547315C26B08001F55C9 /* TSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9152547115C26B08001F55C9 /* TSViewController.xib */; };
+		9152547C15C26CC0001F55C9 /* TSLocateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152547B15C26CC0001F55C9 /* TSLocateView.m */; };
+		9152547F15C26CF0001F55C9 /* TSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152547E15C26CF0001F55C9 /* TSLocation.m */; };
+		9152548215C26DBD001F55C9 /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9152548015C26DBD001F55C9 /* ProvincesAndCities.plist */; };
+		9152548515C26DE2001F55C9 /* TSLocateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9152548415C26DE2001F55C9 /* TSLocateView.xib */; };
+		9152548B15C26E5C001F55C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9152548A15C26E5C001F55C9 /* QuartzCore.framework */; };
+		915254D815C2718C001F55C9 /* btn_020.disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254D415C2718C001F55C9 /* btn_020.disable@2x.png */; };
+		915254D915C2718C001F55C9 /* btn_020.press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254D515C2718C001F55C9 /* btn_020.press@2x.png */; };
+		915254DA15C2718C001F55C9 /* btn_021.press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254D615C2718C001F55C9 /* btn_021.press@2x.png */; };
+		915254DB15C2718C001F55C9 /* btn_021@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254D715C2718C001F55C9 /* btn_021@2x.png */; };
+		915254DE15C27299001F55C9 /* btn_020@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254DC15C27299001F55C9 /* btn_020@2x.png */; };
+		915254DF15C27299001F55C9 /* btn_021.disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254DD15C27299001F55C9 /* btn_021.disable@2x.png */; };
+		915254E115C2734C001F55C9 /* bg_023@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915254E015C2734C001F55C9 /* bg_023@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,20 @@
 		9152546E15C26B08001F55C9 /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		9152546F15C26B08001F55C9 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 		9152547215C26B08001F55C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TSViewController.xib; sourceTree = "<group>"; };
+		9152547A15C26CC0001F55C9 /* TSLocateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLocateView.h; path = Sources/TSLocateView.h; sourceTree = "<group>"; };
+		9152547B15C26CC0001F55C9 /* TSLocateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSLocateView.m; path = Sources/TSLocateView.m; sourceTree = "<group>"; };
+		9152547D15C26CF0001F55C9 /* TSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLocation.h; path = Sources/TSLocation.h; sourceTree = "<group>"; };
+		9152547E15C26CF0001F55C9 /* TSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSLocation.m; path = Sources/TSLocation.m; sourceTree = "<group>"; };
+		9152548015C26DBD001F55C9 /* ProvincesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ProvincesAndCities.plist; path = Sources/ProvincesAndCities.plist; sourceTree = "<group>"; };
+		9152548415C26DE2001F55C9 /* TSLocateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSLocateView.xib; path = Sources/TSLocateView.xib; sourceTree = "<group>"; };
+		9152548A15C26E5C001F55C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		915254D415C2718C001F55C9 /* btn_020.disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_020.disable@2x.png"; sourceTree = "<group>"; };
+		915254D515C2718C001F55C9 /* btn_020.press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_020.press@2x.png"; sourceTree = "<group>"; };
+		915254D615C2718C001F55C9 /* btn_021.press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_021.press@2x.png"; sourceTree = "<group>"; };
+		915254D715C2718C001F55C9 /* btn_021@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_021@2x.png"; sourceTree = "<group>"; };
+		915254DC15C27299001F55C9 /* btn_020@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_020@2x.png"; sourceTree = "<group>"; };
+		915254DD15C27299001F55C9 /* btn_021.disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_021.disable@2x.png"; sourceTree = "<group>"; };
+		915254E015C2734C001F55C9 /* bg_023@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_023@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,7 @@
 				9152545D15C26B08001F55C9 /* UIKit.framework in Frameworks */,
 				9152545F15C26B08001F55C9 /* Foundation.framework in Frameworks */,
 				9152546115C26B08001F55C9 /* CoreGraphics.framework in Frameworks */,
+				9152548B15C26E5C001F55C9 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +97,7 @@
 				9152545C15C26B08001F55C9 /* UIKit.framework */,
 				9152545E15C26B08001F55C9 /* Foundation.framework */,
 				9152546015C26B08001F55C9 /* CoreGraphics.framework */,
+				9152548A15C26E5C001F55C9 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,6 +105,7 @@
 		9152546215C26B08001F55C9 /* TSLocateView */ = {
 			isa = PBXGroup;
 			children = (
+				9152547915C26CA4001F55C9 /* Sources */,
 				9152546B15C26B08001F55C9 /* TSAppDelegate.h */,
 				9152546C15C26B08001F55C9 /* TSAppDelegate.m */,
 				9152546E15C26B08001F55C9 /* TSViewController.h */,
@@ -96,6 +125,35 @@
 				9152546A15C26B08001F55C9 /* TSLocateView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9152547915C26CA4001F55C9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				915254D315C2718C001F55C9 /* img */,
+				9152548015C26DBD001F55C9 /* ProvincesAndCities.plist */,
+				9152547A15C26CC0001F55C9 /* TSLocateView.h */,
+				9152547B15C26CC0001F55C9 /* TSLocateView.m */,
+				9152548415C26DE2001F55C9 /* TSLocateView.xib */,
+				9152547D15C26CF0001F55C9 /* TSLocation.h */,
+				9152547E15C26CF0001F55C9 /* TSLocation.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		915254D315C2718C001F55C9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				915254E015C2734C001F55C9 /* bg_023@2x.png */,
+				915254DC15C27299001F55C9 /* btn_020@2x.png */,
+				915254DD15C27299001F55C9 /* btn_021.disable@2x.png */,
+				915254D415C2718C001F55C9 /* btn_020.disable@2x.png */,
+				915254D515C2718C001F55C9 /* btn_020.press@2x.png */,
+				915254D615C2718C001F55C9 /* btn_021.press@2x.png */,
+				915254D715C2718C001F55C9 /* btn_021@2x.png */,
+			);
+			name = img;
+			path = Sources/img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +210,15 @@
 			files = (
 				9152546715C26B08001F55C9 /* InfoPlist.strings in Resources */,
 				9152547315C26B08001F55C9 /* TSViewController.xib in Resources */,
+				9152548215C26DBD001F55C9 /* ProvincesAndCities.plist in Resources */,
+				9152548515C26DE2001F55C9 /* TSLocateView.xib in Resources */,
+				915254D815C2718C001F55C9 /* btn_020.disable@2x.png in Resources */,
+				915254D915C2718C001F55C9 /* btn_020.press@2x.png in Resources */,
+				915254DA15C2718C001F55C9 /* btn_021.press@2x.png in Resources */,
+				915254DB15C2718C001F55C9 /* btn_021@2x.png in Resources */,
+				915254DE15C27299001F55C9 /* btn_020@2x.png in Resources */,
+				915254DF15C27299001F55C9 /* btn_021.disable@2x.png in Resources */,
+				915254E115C2734C001F55C9 /* bg_023@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +232,8 @@
 				9152546915C26B08001F55C9 /* main.m in Sources */,
 				9152546D15C26B08001F55C9 /* TSAppDelegate.m in Sources */,
 				9152547015C26B08001F55C9 /* TSViewController.m in Sources */,
+				9152547C15C26CC0001F55C9 /* TSLocateView.m in Sources */,
+				9152547F15C26CF0001F55C9 /* TSLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

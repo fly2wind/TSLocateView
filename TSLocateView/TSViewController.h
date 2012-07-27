@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSLocateView.h"
 
-@interface TSViewController : UIViewController
+@interface TSViewController : UIViewController<UIActionSheetDelegate>
 
 @end

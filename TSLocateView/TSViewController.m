@@ -8,6 +8,7 @@
 
 #import "TSViewController.h"
 
+
 @interface TSViewController ()
 
 @end
@@ -17,18 +18,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    TSLocateView *locateView = (TSLocateView *)actionSheet;
+    TSLocation *location = locateView.locate;
+    NSLog(@"city:%@ lat:%f lon:%f", location.city, location.latitude, location.longitude);
+    //You can uses location to your application.
+    if(buttonIndex == 0) {
+        NSLog(@"Cancel");
+    }else {
+        NSLog(@"Select");
+    }
+}
+- (IBAction)showLocateView:(id)sender {
+    TSLocateView *locateView = [[TSLocateView alloc] initWithTitle:@"定位城市" delegate:self];
+    [locateView showInView:self.view];
 }
 
 @end
