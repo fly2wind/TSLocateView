@@ -12,12 +12,14 @@ This component is part of the most popular social network in China, DouDouYou兜
 ```ObjectiveC
 // create an locateView, likes the UIAlertView
 TSLocateView *locateView = [[TSLocateView alloc] initWithTitle:@"定位城市" delegate:self];
-    [locateView showInView:self.view];
+[locateView showInView:self.view];
 ```
 
 ## Preview
 - 
-<img src="http://media3.doudouy.com/users/560/userPhoto/origin/1343364223710.jpg"/>
+<img src="http://media3.doudouy.com/users/560/userPhoto/400/1343373499508.jpg"/>
+<img src="http://media3.doudouy.com/users/560/userPhoto/400/1343373512394.jpg"/>
+
 
 ## Contrat me
 
